@@ -13,7 +13,7 @@ open class SimpleEndpoint {
   @GET
   open fun getStatus(): String {
     val ip = InetAddress.getLocalHost()
-    return "Running on $ip (${ip.hostName})"
+    return "Running (v2) on $ip (${ip.hostName})"
   }
 
 }
